@@ -1,95 +1,124 @@
 body {
-    margin: 0;
-    font-family: 'Orbitron', sans-serif;
-    background-color: #0f0f0f;
-    color: #e0e0e0;
-    line-height: 1.6;
-  }
-  
-  header {
-    background-color: #111;
-    padding: 2rem;
-    text-align: center;
-    border-bottom: 2px solid #00ffc3;
-  }
-  
-  header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-    color: #00ffc3;
-  }
-  
-  header p {
-    font-size: 1.1rem;
-    color: #b0b0b0;
-  }
-  
-  nav {
-    margin-top: 1rem;
-  }
-  
-  nav a {
-    color: #00ffc3;
-    text-decoration: none;
-    margin: 0 1rem;
-    font-weight: bold;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
-  section {
-    padding: 2rem 5%;
-    text-align: center;
-  }
-  
-  h2 {
-    color: #00ffc3;
-    margin-bottom: 1rem;
-  }
-  
-  .project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    margin-top: 2rem;
-  }
-  
-  .project-card {
-    background-color: #1a1a1a;
-    padding: 1.5rem;
-    border: 1px solid #00ffc3;
-    border-radius: 10px;
-    transition: transform 0.3s;
-  }
-  
-  .project-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 0 15px #00ffc3;
-  }
-  
-  .contact-btn {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.75rem 1.5rem;
-    background-color: #00ffc3;
-    color: #000;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-  }
-  
-  .contact-btn:hover {
-    background-color: #00e6b8;
-  }
-  
-  footer {
-    background-color: #111;
-    text-align: center;
-    padding: 1rem;
-    font-size: 0.9rem;
-    color: #888;
-    border-top: 1px solid #00ffc3;
-  }
-  
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #0f0f0f;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #111;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 2px solid #00ffc3;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #00ffc3;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #b0b0b0;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: #00ffc3;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.resume-btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  background-color: #00ffc3;
+  color: #000;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.resume-btn:hover {
+  background-color: #00e6b8;
+}
+
+section {
+  padding: 2rem 5%;
+  text-align: center;
+}
+
+h2 {
+  color: #00ffc3;
+  margin-bottom: 1rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  border: 1px solid #00ffc3;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 15px #00ffc3;
+}
+
+.github-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #00ffc3;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.github-btn:hover {
+  background-color: #00e6b8;
+}
+
+.contact-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #00ffc3;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.contact-btn:hover {
+  background-color: #00e6b8;
+}
+
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #888;
+  border-top: 1px solid #00ffc3;
+}
