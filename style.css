@@ -10,13 +10,13 @@ header {
   background-color: #111;
   padding: 2rem;
   text-align: center;
-  border-bottom: 2px solid #00bfff;
+  border-bottom: 2px solid #7df9ff;
 }
 
 header h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
-  color: #00bfff;
+  color: #7df9ff;
 }
 
 header p {
@@ -29,7 +29,7 @@ nav {
 }
 
 nav a {
-  color: #00bfff;
+  color: #7df9ff;
   text-decoration: none;
   margin: 0 1rem;
   font-weight: bold;
@@ -43,7 +43,7 @@ nav a:hover {
   display: inline-block;
   margin-top: 1.5rem;
   padding: 0.7rem 1.5rem;
-  background-color: #00bfff;
+  background-color: #7df9ff;
   color: #000;
   border-radius: 5px;
   text-decoration: none;
@@ -51,7 +51,7 @@ nav a:hover {
 }
 
 .resume-btn:hover {
-  background-color: #00a5e0;
+  background-color: #5edde0;
 }
 
 section {
@@ -60,7 +60,7 @@ section {
 }
 
 h2 {
-  color: #00bfff;
+  color: #7df9ff;
   margin-bottom: 1rem;
 }
 
@@ -74,21 +74,21 @@ h2 {
 .project-card {
   background-color: #1a1a1a;
   padding: 1.5rem;
-  border: 1px solid #00bfff;
+  border: 1px solid #7df9ff;
   border-radius: 10px;
   transition: transform 0.3s;
 }
 
 .project-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 0 15px #00bfff;
+  box-shadow: 0 0 15px #7df9ff;
 }
 
 .github-btn {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.5rem 1rem;
-  background-color: #00bfff;
+  background-color: #7df9ff;
   color: #000;
   text-decoration: none;
   font-weight: bold;
@@ -96,14 +96,14 @@ h2 {
 }
 
 .github-btn:hover {
-  background-color: #00a5e0;
+  background-color: #5edde0;
 }
 
 .contact-btn {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.75rem 1.5rem;
-  background-color: #00bfff;
+  background-color: #7df9ff;
   color: #000;
   text-decoration: none;
   border-radius: 5px;
@@ -111,7 +111,7 @@ h2 {
 }
 
 .contact-btn:hover {
-  background-color: #00a5e0;
+  background-color: #5edde0;
 }
 
 footer {
@@ -120,5 +120,5 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
   color: #888;
-  border-top: 1px solid #00bfff;
+  border-top: 1px solid #7df9ff;
 }
